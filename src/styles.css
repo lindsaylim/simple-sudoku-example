@@ -1,0 +1,38 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+a:link {
+  color: #538cc6;
+  text-decoration: none;
+}
+
+a:visited { 
+  color: #5453c6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #767bb2;
+  text-decoration: underline;
+}
+
+.grid-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 154px;
+  border: 1px solid #4f2084;
+}
+
+.grid-cell {
+  border: 1px solid #4f2084;
+  width: 50px;
+  height: 50px;
+}
+
+.grid-cell input {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
